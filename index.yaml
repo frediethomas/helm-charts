@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  adservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-06T06:03:15.837221012-07:00"
+    description: A Helm chart for Kubernetes
+    digest: ddb2c899887a14a0478e2c2d36dbd237e1311715d43df0e647e105819d06f648
+    name: adservice
+    urls:
+    - https://frediethomas.github.io/helm-chart/adservice-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-05-06T06:03:15.835667135-07:00"
