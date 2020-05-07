@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: keerthi19191919191919191919191919191919191919/currencyservice:dirty
+  repository: keerthi19/currencyservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
-  tag: "v0.1.4-15-g17abf1e"
+  tag: "dirty"
 
 imagePullSecrets: []
 nameOverride: ""
