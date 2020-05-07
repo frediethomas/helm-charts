@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/calcium-chalice-273714/adservice
+  repository: keerthi19/adservice:dirty
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
   tag: "v0.1.4-15-g17abf1e"
