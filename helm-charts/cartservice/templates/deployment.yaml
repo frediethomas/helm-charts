@@ -49,7 +49,7 @@ spec:
               command: ["/bin/grpc_health_probe", "-addr=:7070", "-rpc-timeout=5s"]
           env:
           - name: REDIS_ADDR
-            value: "redis-cart:6379"
+            value: "redis-poc:6379"
           - name: PORT
             value: "7070"
           - name: LISTEN_ADDR
