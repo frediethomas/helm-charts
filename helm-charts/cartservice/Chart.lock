@@ -1,0 +1,6 @@
+dependencies:
+- name: redis-cart
+  repository: https://frediethomas.github.io/helm-charts
+  version: 0.1.0
+digest: sha256:5f5ee122f9f542dd76d1f75df15816f9ab044f76d4fd5066618f6785c109a4d5
+generated: "2020-05-07T23:14:22.892022512-07:00"

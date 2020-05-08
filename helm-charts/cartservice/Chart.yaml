@@ -25,3 +25,4 @@ dependencies:
   - name: redis-cart
     version: 0.1.0
     repository: https://frediethomas.github.io/helm-charts
+    enabled: true
