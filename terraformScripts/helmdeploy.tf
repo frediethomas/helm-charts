@@ -11,14 +11,6 @@ resource "helm_release" "redis" {
 }
 
 
-
-resource "helm_release" "adservice" {
-  name       = "adservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "adservice"
-  version    = "0.1.0"
-}
-
 resource "helm_release" "cartservice" {
   name       = "cartservice-poc"
   repository = data.helm_repository.poc.metadata[0].name
@@ -26,12 +18,6 @@ resource "helm_release" "cartservice" {
   version    = "0.1.0"
 }
 
-resource "helm_release" "checkoutservice" {
-  name       = "checkoutservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "checkoutservice"
-  version    = "0.1.0"
-}
 resource "helm_release" "currencyservice" {
   name       = "currencyservice-poc"
   repository = data.helm_repository.poc.metadata[0].name
@@ -39,31 +25,10 @@ resource "helm_release" "currencyservice" {
   version    = "0.1.0"
 }
 
-
-resource "helm_release" "emailservice" {
-  name       = "emailservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "emailservice"
-  version    = "0.1.0"
-}
 resource "helm_release" "frontend" {
   name       = "frontend-poc"
   repository = data.helm_repository.poc.metadata[0].name
   chart      = "frontend"
-  version    = "0.1.0"
-}
-
-resource "helm_release" "paymentservice" {
-  name       = "paymentservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "paymentservice"
-  version    = "0.1.0"
-}
-
-resource "helm_release" "productcatalogservice" {
-  name       = "productcatalogservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "productcatalogservice"
   version    = "0.1.0"
 }
 
@@ -74,10 +39,13 @@ resource "helm_release" "recommendationservice" {
   version    = "0.1.0"
 }
 
-resource "helm_release" "shippingservice" {
-  name       = "shippingservice-poc"
+resource "helm_release" "productcatalogservice" {
+  name       = "productcatalogservice-poc"
   repository = data.helm_repository.poc.metadata[0].name
-  chart      = "shippingservice"
+  chart      = "productcatalogservice"
   version    = "0.1.0"
 }
+
+
+
 
