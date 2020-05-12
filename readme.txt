@@ -6,8 +6,9 @@
 4. Be on the master branch and take a pull
 5. edit the chart inside the helm-charts folder.
 6. Once the editing is done we need to create the packages. For that on command prompt be on repo root location and perform 
-   helm package helm-charts/* .              --dot is present
+   helm package helm-charts/*                     ---tested in linux
    Ensure you are not inside "helm-charts" folder.On success we will see pacakges created messages on command prompt.
+   Also if there are multiple folders and only a specific package needs to be modified and packed,can give exact packagename instead of *.
 7. Now we need generate the index file using :
   helm repo index --url https://frediethomas.github.io/helm-charts/ .         --dot is present
   
