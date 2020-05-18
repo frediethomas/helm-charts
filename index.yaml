@@ -3,9 +3,9 @@ entries:
   adservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.44206911Z"
+    created: "2020-05-18T11:45:07.759152735Z"
     description: A Helm chart for Kubernetes
-    digest: 745894318b9337db0b0fe75f423ec749dea636ba9ee143f7c2d0fa5de181c142
+    digest: 14fa1cf62d90fc7350a24c8351d449c6bf2368d9d4f9d68402d8332360b375df
     name: adservice
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   cartservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.446092394Z"
+    created: "2020-05-18T11:45:07.760950588Z"
     description: A Helm chart for Kubernetes
-    digest: f7704c60ceaecf400b5a6a0717b07b728eb7059925cdad3366fbb1588d46cc60
+    digest: 1d2e8c47aa1d5c3ab722c614294da7e0bf3f3ecdc35706c62616f642cea5099b
     name: cartservice
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   checkoutservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.447009597Z"
+    created: "2020-05-18T11:45:07.761593657Z"
     description: A Helm chart for Kubernetes
-    digest: 15f5e47e1900cfe954df01cae67e7836638a69b8ffbe19306e28f894fb34dead
+    digest: e9c6a15b3b07c3ea2d5f1f6cca299607f30fa4f62b2647781b0d86e4df16ffe8
     name: checkoutservice
     type: application
     urls:
@@ -36,9 +36,9 @@ entries:
   currencyservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.448432024Z"
+    created: "2020-05-18T11:45:07.762208831Z"
     description: A Helm chart for Kubernetes
-    digest: 5520b4d000497588d4b8982e42e9fcabe7b94cdc83eabe238f83c50ed683112f
+    digest: 91e41683f86d5fccb73f19d6fd038cd8875ba51de736049753aa72cc81892d84
     name: currencyservice
     type: application
     urls:
@@ -47,9 +47,9 @@ entries:
   emailservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.453496464Z"
+    created: "2020-05-18T11:45:07.763750509Z"
     description: A Helm chart for Kubernetes
-    digest: 4351227b10b548f366fbc058155eb7f4349cab3d5bdad680d701215ea69c3e07
+    digest: ceff3b1dd85808cc5e946e6c659149910ea0571cde8916fbc9875e197142f218
     name: emailservice
     type: application
     urls:
@@ -58,9 +58,9 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.454202661Z"
+    created: "2020-05-18T11:45:07.764498263Z"
     description: A Helm chart for Kubernetes
-    digest: 14bb12066f051a5c9fc18423a264b86650667d7f7bf5f3d7eba35cce480d3891
+    digest: be5239a0786ba6ac5b62ee9f3f608ab2dcb13277157af6dee6c3b46be17f8745
     name: frontend
     type: application
     urls:
@@ -69,9 +69,9 @@ entries:
   paymentservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.454822583Z"
+    created: "2020-05-18T11:45:07.766053703Z"
     description: A Helm chart for Kubernetes
-    digest: d5005b1364928ba465ba67f22bb49b49ba782d16c9913c2ae06e750d5069f7c6
+    digest: 60c2a023d0517debdb3f7615ffad173f24b1b16bb613aa5156bbfa44c72dcdf7
     name: paymentservice
     type: application
     urls:
@@ -80,9 +80,9 @@ entries:
   productcatalogservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.455447623Z"
+    created: "2020-05-18T11:45:07.766755531Z"
     description: A Helm chart for Kubernetes
-    digest: 5e25cffa377c5fee93fcd59ee1df02476bdb31ad029b8f521d71d47555e14dce
+    digest: 13016b135f85fd97616ab5320b22313f6babf962e13a495d14adf10c44a980cc
     name: productcatalogservice
     type: application
     urls:
@@ -91,9 +91,9 @@ entries:
   recommendationservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.456058415Z"
+    created: "2020-05-18T11:45:07.767411199Z"
     description: A Helm chart for Kubernetes
-    digest: 7bf96a800e94c81c5f6ac7a9ff940a5bd8327b65ece66cf1e7b63224806a3410
+    digest: 80599c063bd2cb3de9f7749d5e6e2102b79217c5a5f1775c5b010aa59d3aa2ff
     name: recommendationservice
     type: application
     urls:
@@ -102,9 +102,9 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.456697259Z"
+    created: "2020-05-18T11:45:07.768043183Z"
     description: A Helm chart for Kubernetes
-    digest: a0b460329451768d9ecfb595813fa765c70e2914f5e78334db8314f96260f16e
+    digest: 1c3cf1bd2af1f0af5dbe3c7e4369510a4152d7f75218dca581c71781f58efd32
     name: redis
     type: application
     urls:
@@ -113,12 +113,12 @@ entries:
   shippingservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-18T11:44:07.46169509Z"
+    created: "2020-05-18T11:45:07.768685252Z"
     description: A Helm chart for Kubernetes
-    digest: fba931d7e22979c839322b0f0f250d39f736cbdbf33df199230de6d601970f6b
+    digest: 8fcda2328ddbcddd6b274153f9e8ffd0cc418bedca875c06f7119fbbde4aba7f
     name: shippingservice
     type: application
     urls:
     - https://frediethomas.github.io/helm-charts/shippingservice-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-18T11:44:07.440744008Z"
+generated: "2020-05-18T11:45:07.752761914Z"
