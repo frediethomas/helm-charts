@@ -32,13 +32,6 @@ resource "helm_release" "frontend" {
   version    = "0.1.0"
 }
 
-resource "helm_release" "recommendationservice" {
-  name       = "recommendationservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "recommendationservice"
-  version    = "0.1.0"
-}
-
 resource "helm_release" "productcatalogservice" {
   name       = "productcatalogservice-poc"
   repository = data.helm_repository.poc.metadata[0].name
