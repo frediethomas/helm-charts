@@ -18,27 +18,6 @@ resource "helm_release" "cartservice" {
   version    = "0.1.0"
 }
 
-resource "helm_release" "currencyservice" {
-  name       = "currencyservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "currencyservice"
-  version    = "0.1.0"
-}
-
-resource "helm_release" "frontend" {
-  name       = "frontend-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "frontend"
-  version    = "0.1.0"
-}
-
-resource "helm_release" "productcatalogservice" {
-  name       = "productcatalogservice-poc"
-  repository = data.helm_repository.poc.metadata[0].name
-  chart      = "productcatalogservice"
-  version    = "0.1.0"
-}
-
 
 
 
