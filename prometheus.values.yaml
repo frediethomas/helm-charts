@@ -1172,7 +1172,7 @@ serverFiles:
         static_configs:
           - targets:
             - localhost:9090
-            - redis-poc
+            - frontend-poc
       # A scrape configuration for running Prometheus on a Kubernetes cluster.
       # This uses separate scrape configs for cluster components (i.e. API server, node)
       # and services to allow each to use different authentication configs.
