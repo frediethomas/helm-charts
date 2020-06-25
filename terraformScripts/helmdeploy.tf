@@ -33,6 +33,13 @@ resource "helm_release" "frontend" {
 }
 
 
+resource "helm_release" "productcatalogservice" {
+  name       = "productcatalogservice-poc"
+  repository = data.helm_repository.poc.metadata[0].name
+  chart      = "productcatalogservice"
+  version    = "0.1.0"
+}
+
 
 
 
