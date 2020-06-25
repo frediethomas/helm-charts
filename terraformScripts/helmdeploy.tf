@@ -18,6 +18,13 @@ resource "helm_release" "cartservice" {
   version    = "0.1.0"
 }
 
+resource "helm_release" "checkoutservice" {
+  name       = "checkoutservice-poc"
+  repository = data.helm_repository.poc.metadata[0].name
+  chart      = "checkoutservice"
+  version    = "0.1.0"
+}
+
 resource "helm_release" "currencyservice" {
   name       = "currencyservice-poc"
   repository = data.helm_repository.poc.metadata[0].name
@@ -39,3 +46,23 @@ resource "helm_release" "productcatalogservice" {
   version    = "0.1.0"
 }
 
+resource "helm_release" "recommendationservice" {
+  name       = "recommendationservice-poc"
+  repository = data.helm_repository.poc.metadata[0].name
+  chart      = "recommendationservice"
+  version    = "0.1.0"
+}
+
+resource "helm_release" "shippingservice" {
+  name       = "shippingservice-poc"
+  repository = data.helm_repository.poc.metadata[0].name
+  chart      = "shippingservice"
+  version    = "0.1.0"
+}
+
+resource "helm_release" "paymentservice" {
+  name       = "paymentservice-poc"
+  repository = data.helm_repository.poc.metadata[0].name
+  chart      = "paymentservice"
+  version    = "0.1.0"
+}
